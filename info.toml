@@ -1,9 +1,8 @@
 [meta]
-name = "Club Room Creator"
+name = ""
 author = "isutty5"
 version = "0.1.0"
 description = "A plugin to create and configure Trackmania Club Rooms."
 
-[dependencies]
-# Ensure Nadeo services are available for API calls
-NadeoServices = "*"
+[script]
+dependencies = ["NadeoServices"]
